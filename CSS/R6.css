@@ -1,14 +1,13 @@
 h1{
-    background-color: black ;
     color: whitesmoke;
 }
 
 h2 {
-   background-color: black;
-   color: whitesmoke; 
+    color: whitesmoke; 
 }
 body {
-    background-image: url(../IMAGES/);
+    background-image: url(../IMAGES/R6fondo2.webp);
     background-size: cover ;
     opacity: 75%;
+    
 }
