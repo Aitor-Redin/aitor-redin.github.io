@@ -1,13 +1,49 @@
 h1{
     color: whitesmoke;
+    padding-inline: 15%;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 h2 {
     color: whitesmoke; 
+    padding-inline: 15%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large
 }
 body {
     background-image: url(../IMAGES/R6fondo2.webp);
     background-size: cover ;
-    opacity: 75%;
-    
 }
+
+.fotos img {
+    width: 700px;
+    padding-inline: 50px;
+}
+
+.fotos a {
+    float: left;
+}
+
+.fotos {
+    text-align: center;
+    padding-bottom: 10px;
+    padding-inline: 20px;
+}
+.texto {
+    text-align: center;
+    padding: 70%;
+}
+
+.fotos a:hover {
+    color: whitesmoke;
+    border: 2px black;
+    text-decoration: none;
+}
+
+p {
+    padding-inline: 15%;
+    text-align: justify;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
