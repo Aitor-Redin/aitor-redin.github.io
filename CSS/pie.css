@@ -1,3 +1,15 @@
 .pie {
     margin-top: 10px;
 }
+.pie a {
+    display: list-item;
+    color: black;
+    text-decoration: none;
+    max-width: 100px;
+}
+.pie a:visited {
+    color: gray;
+}
+.pie a:hover {
+    background-color: aqua;
+}
