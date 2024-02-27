@@ -16,12 +16,15 @@ body {
 }
 
 .fotos img {
-    width: 700px;
-    padding-inline: 50px;
+    width: 550px;
+    padding-left: 100px;
 }
 
 .fotos a {
     float: left;
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: larger;
 }
 
 .fotos {
@@ -62,10 +65,14 @@ ul {
 
 li {
     padding-top: 5px;
+    padding-bottom: 5px;
 }
 .pie {
     border: 2px solid black;
     margin-inline: 100px;
     background-color: lightblue;
-    
+    font-size: larger;
+}
+.fotos {
+    padding-left: 150px;
 }

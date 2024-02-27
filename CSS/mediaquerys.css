@@ -1,0 +1,11 @@
+@media screen and ((min-width:768px ) and (max-width:1024px) ) {
+    img {
+    width: calc(50% - 20px);
+    
+    }
+}
+@media screen and ((min-width:340px ) and (max-width:400px) ) {
+    img {
+    width: calc(30% - 20px);
+    }
+}
