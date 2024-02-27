@@ -1,0 +1,46 @@
+.epico {
+    color: darkred;
+    text-shadow: 1px 1px black;
+    font-family: "Aboreto", system-ui;
+    font-weight: bold;
+    font-style: italic;
+}
+h3 {
+    color: whitesmoke; 
+    padding-inline: 15%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+    text-decoration: underline;
+    padding-top: 100px;
+}
+
+.deimos {
+    padding-left: 15%;
+    height: 300px;
+}
+
+.desc {
+    padding-inline: 15%;
+    text-align: justify;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: whitesmoke;
+    padding-top: 20px;
+}
+
+.imgdeimos {
+    width: 400px;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-left: 15%;
+    float: left;
+    padding-right: 5px;
+    padding-bottom: 20px;
+}
+
+.parrafoDeimos {
+    padding-inline: 15%;
+    text-align: justify;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

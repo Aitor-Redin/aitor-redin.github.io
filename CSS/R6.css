@@ -2,13 +2,15 @@ h1{
     color: whitesmoke;
     padding-inline: 15%;
     font-family: 'Times New Roman', Times, serif;
+    text-decoration: underline;
 }
 
 h2 {
     color: whitesmoke; 
     padding-inline: 15%;
     font-family: 'Times New Roman', Times, serif;
-    font-size: xx-large
+    font-size: xx-large;
+    text-decoration: underline;
 }
 body {
     background-image: url(../IMAGES/R6fondo2.webp);
@@ -72,6 +74,7 @@ li {
     margin-inline: 100px;
     background-color: lightblue;
     font-size: larger;
+    margin-top: 20px;
 }
 .fotos {
     padding-left: 150px;
