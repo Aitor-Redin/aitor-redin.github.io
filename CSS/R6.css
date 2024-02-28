@@ -18,8 +18,7 @@ body {
 }
 
 .fotos img {
-    width: 550px;
-    padding-left: 100px;
+    max-width: 550px;
 }
 
 .fotos a {
@@ -78,4 +77,8 @@ li {
 }
 .fotos {
     padding-left: 150px;
+}
+
+.Mapalink {
+    float: right;
 }
