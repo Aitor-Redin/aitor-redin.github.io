@@ -9,10 +9,10 @@
     margin-inline: 10px;
     position: relative;
 }
-.Funcionamiento { background-image: url(images/FuncionamientoFortnite.jpg); background-size: cover; }
-.Plataformas { background-image: url(images/PlataformasFortnite.jpg); background-size: cover; }
-.Capitulos { background-image: url(images/CapitulosFortnite.jpg); background-size: cover; }
-.Cosmeticos { background-image: url(images/CosmeticosFortnite.jpg); background-size: cover; }
+.Funcionamiento { background-image: url(../images/FuncionamientoFortnite.jpg); background-size: cover; }
+.Plataformas { background-image: url(../images/PlataformasFortnite.jpg); background-size: cover; }
+.Capitulos { background-image: url(../images/CapitulosFortnite.jpg); background-size: cover; }
+.Cosmeticos { background-image: url(../images/CosmeticosFortnite.jpg); background-size: cover; }
 
 .Seccion h4 {
     text-align: center;
