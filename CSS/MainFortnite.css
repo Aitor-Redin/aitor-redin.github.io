@@ -81,9 +81,16 @@ body {
 .titulo {
     width: 80%;
     margin-inline: auto;
-    display: flex;
-    justify-content: center;
+    text-align: center;
+    margin-block: 40px;
+
 }
+
+@media screen and (max-width: 600px) {
+    .titulo img { width: 80%; }
+}
+
+.titulo img {max-width: 500px;}
 
 .carousel-dark {
     width: 80%;
