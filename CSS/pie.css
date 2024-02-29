@@ -13,3 +13,6 @@
 .pie a:hover {
     background-color: aqua;
 }
+.MapaLink {
+    display: inline-block;
+}
