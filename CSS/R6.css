@@ -23,7 +23,7 @@ h2 {
 .fotos div {
     text-align: center;
     padding-bottom: 10px;
-    padding-inline: 75px;
+    padding-inline: 15%;
 }
 
 .fotos a {
@@ -55,13 +55,15 @@ h2 {
     .card {
     width: calc(100% - 20px);
     }
-=======
+}
+.texto {
     color: whitesmoke; 
     padding-inline: 15%;
     font-family: 'Times New Roman', Times, serif;
     font-size: xx-large;
     text-decoration: underline;
 }
+
 body {
     background-image: url(../IMAGES/R6fondo2.webp);
     background-size: cover ;
