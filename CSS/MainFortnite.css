@@ -1,0 +1,95 @@
+/*/ SECCIONES =========================================================================================== /*/
+
+.Secciones { margin-inline: auto; margin-bottom: 10px; height: 80%;}
+.Secciones h3 { text-align: center; font-size: 30px; margin-top: 0; }
+.Seccion {
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    margin-inline: 10px;
+    position: relative;
+}
+.Funcionamiento { background-image: url(../IMAGES/Fortnite/Funcionamiento.jpg); background-size: cover; }
+.Plataformas { background-image: url(../IMAGES/Fortnite/Plataformas.jpg); background-size: cover; }
+.Capitulos { background-image: url(../IMAGES/Fortnite/Capitulos.jpg); background-size: cover; }
+.Cosmeticos { background-image: url(../IMAGES/Fortnite/Cosmeticos.jpg); background-size: cover; }
+
+.Seccion h4 {
+    text-align: center;
+    font-size: 25px;
+    color: white;
+}
+
+.Descripcion {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: rgba(228, 245, 255, 0.185);
+    transform: translateX(50%) scaleX(0);
+    transition: .5s ease;
+    color: rgb(0, 15, 100);
+}
+
+.Seccion:hover .Descripcion {
+    right: 0;
+    transform: translateX(0) scaleX(1);
+}
+
+.separador_secciones {
+    width: 80%;
+    margin-inline: auto;
+    background-color: white;
+    height: 10px;
+    border-radius: 20px;
+    margin-bottom: 50px;
+}
+
+.Secciones {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    margin-block: auto;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+a:visited {
+    color: rgb(255, 255, 255);
+}
+
+a:link {
+    color: white;
+}
+
+/*/ otros =============================================================================================== /*/
+
+body {
+    background-color: black !important;
+    color: white !important;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
+    font-size: 18px !important;
+}
+
+.titulo {
+    width: 30%;
+    margin-inline: auto;
+    .titulo img { width: 100%; height: 250px;}
+}
+
+.carousel-dark {
+    width: 80%;
+    margin-inline: auto;
+    margin-bottom: 30px;
+}
+
+.contenidos {
+    width: 80%;
+    margin-inline: auto;
+    text-align: justify;
+}
