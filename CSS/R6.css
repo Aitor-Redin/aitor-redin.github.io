@@ -1,9 +1,9 @@
 h1{
-    background-color: black ;
     color: whitesmoke;
 }
 
 h2 {
+<<<<<<< HEAD
     background-color: black;
     color: whitesmoke; 
 }
@@ -50,4 +50,13 @@ h2 {
     .card {
     width: calc(100% - 20px);
     }
+=======
+    color: whitesmoke; 
+}
+body {
+    background-image: url(../IMAGES/R6fondo2.webp);
+    background-size: cover ;
+    opacity: 75%;
+    
+>>>>>>> d2d4893231736066d1caa0be6b5549ae49b8e673
 }

@@ -4,7 +4,7 @@ body {
 
 .cabecera {
     font-family: Arial, sans-serif;
-    background-color: #191919;
+    background-color: darkblue;
     font-size: 16px;
 }
 
@@ -21,7 +21,7 @@ body {
 }
 
 .cabecera a:hover {
-    background-color: #00af3b;
+    background-color: deeppink;
 }
 
 .cabecera a {
@@ -38,7 +38,7 @@ body {
     display: none;
     position: absolute;
     z-index: 1;
-    background-color: #191919;
+    background-color: darkblue ;
 }
 
 .dropdown:hover .dropdown_content {
