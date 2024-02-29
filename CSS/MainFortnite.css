@@ -108,4 +108,9 @@ h1 { font-size: 300%; }
     text-align: justify;
 }
 
-.FloatIzquierda { float: left; }
+.FloatIzquierda {
+    float: right;
+    width: 50%;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
