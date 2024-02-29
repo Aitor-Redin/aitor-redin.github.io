@@ -1,11 +1,16 @@
 h1{
     color: whitesmoke;
+    padding-inline: 15%;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: underline;
 }
 
 h2 {
-<<<<<<< HEAD
-    background-color: black;
     color: whitesmoke; 
+    padding-inline: 15%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    text-decoration: underline;
 }
 
 .cuerpo {
@@ -52,11 +57,78 @@ h2 {
     }
 =======
     color: whitesmoke; 
+    padding-inline: 15%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    text-decoration: underline;
 }
 body {
     background-image: url(../IMAGES/R6fondo2.webp);
     background-size: cover ;
-    opacity: 75%;
-    
->>>>>>> d2d4893231736066d1caa0be6b5549ae49b8e673
+}
+
+.fotos img {
+    max-width: 550px;
+}
+
+.fotos a {
+    float: left;
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: larger;
+}
+
+.fotos {
+    text-align: center;
+    padding-bottom: 10px;
+    padding-inline: 20px;
+    display: inline-block;
+}
+.texto {
+    text-align: center;
+    padding: 70%;
+}
+
+.fotos a:hover {
+    color: whitesmoke;
+    border: 2px black;
+    text-decoration: none;
+}
+
+p {
+    padding-inline: 15%;
+    text-align: justify;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.textos {
+    text-align: left;
+}
+
+ul {
+    padding-top: 5px;
+    text-align: left;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-inline: 15%;
+}
+
+li {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.pie {
+    border: 2px solid black;
+    margin-inline: 100px;
+    background-color: lightblue;
+    font-size: larger;
+    margin-top: 20px;
+}
+.fotos {
+    padding-left: 150px;
+}
+
+.Mapalink {
+    float: right;
 }
