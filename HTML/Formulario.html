@@ -2,10 +2,36 @@
 <html>
 <head>
     <meta charset='utf-8'>
-    <title>Rainbow Six Siege</title>
+    <title>Formulario</title>
     <link rel='stylesheet' type='text/css' media='screen' href="../CSS/Formulario.css">
+    <link rel='stylesheet' type='text/css' media='screen' href="../CSS/pie.css">
 </head>
 <body>
-
-        
+    <h1>¡Contáctanos!</h1>
+    <div class="contenidos">
+        <form action="../HTML/Formulario.html" method="get">
+            <div class="grid-container">
+                <input type="text"   id="nombre_completo" name="nombre_completo"   placeholder="Nombre Completo *" class="form1"/>
+                <input type="number" id="telefono" name="telefono" placeholder="Teléfono" class="form1" />
+                <input type="email"  id="email" name="email"    placeholder="Correo *"  class="form1" />
+                <input type="text"  id="horario" name="Horario"   placeholder="Horario de disponibilidad"  class="form1" />
+                <textarea id="mensaje" name="mensaje" placeholder="Mensaje" rows="10" class="form1"></textarea>
+                <div class="form1">
+                    <input type="submit" value="Enviar" />
+                </div>
+            </div>
+        </form>
+    </div>
+    <div class="Noleer">
+        <p>La empresa adscrita a esta página web no se compromete a responder este formulario ni a ponerse en contacto con la persona que lo envie, sin embargo sí que se usará su Correo para enviar notificaciones sobre posibles actualizaciones de la web y ofertas.</p>
+    </div>
+    <div class="pie">
+        <p>¡Siguenos en nuestras redes sociales!
+        <a href="https://www.instagram.com/rainbow6game/">Instagram<i class="bi bi-instagram"></i></a>
+        <a href="https://twitter.com/Rainbow6Game">Twitter <i class="bi bi-twitter-x"></i></a>
+        <a href="https://www.facebook.com/rainbow6official">Facebook <i class="bi bi-facebook"></i></a>
+        <a href="../HTML/MAPAWEB.html" class="MapaLink">Mapa Web</a>
+        <a href="../HTML/Formulario.html">Contactanos</a>
+        </p> 
+    </div>
 </body>
