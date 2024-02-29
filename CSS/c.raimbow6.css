@@ -1,8 +1,10 @@
-
+:root {
+    --color_letra: #BDD817;
+}
 
 .enlace {
     text-decoration: none;
-    color: red;
+    color: #BDD817;
 }
 
 .cabecera {
@@ -11,7 +13,7 @@
     position: sticky;
     top: 0;
     background-color: #22262c;
-    color: red;
+    color: #BDD817;
 }
 
 .menu {
@@ -29,10 +31,7 @@
 .logo  img {
     height: 100%;
     width: 100%;
-    background-color: red;
 }
-
-
 
 .menu_buttons {
     margin-left: 80px;
@@ -74,4 +73,3 @@
     position: relative;
     top: 5px;
 }
-
