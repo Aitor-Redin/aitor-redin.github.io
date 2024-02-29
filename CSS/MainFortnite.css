@@ -61,15 +61,14 @@ a {
     text-decoration: none;
 }
 
-a:visited {
-    color: rgb(255, 255, 255);
-}
+a:visited { color: rgb(255, 255, 255); }
 
-a:link {
-    color: white;
-}
+a:link { color: white; }
 
 /*/ otros =============================================================================================== /*/
+
+.enlace:visited {color: rgb(0, 132, 255);}
+.enlace:link {color: rgb(0, 132, 255);}
 
 body {
     background-color: black !important;
@@ -90,9 +89,12 @@ body {
 
     .titulo img { width: 80%; }
     .Seccion {width: 140px; height: 140px;}
+    .secciones {width: 100%;}
 }
 
 .titulo img {max-width: 500px;}
+
+h1 { font-size: 300%; }
 
 .carousel-dark {
     width: 80%;
@@ -105,3 +107,5 @@ body {
     margin-inline: auto;
     text-align: justify;
 }
+
+.FloatIzquierda { float: left; }
