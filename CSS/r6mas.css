@@ -1,32 +1,18 @@
 .imgblackice {
-    width: 1024px;
+    width: 900px;
     padding-bottom: 10px;
     padding-left: 15%;
+    margin: auto;
 }
 
 .textomas {
     float: right;
 }
 @media screen and ((min-width:768px ) and (max-width:1024px) ) {
-    .fotos img {
-    width: 550px;
-    padding-left: 0%;
-    padding-inline: 0%;
-    }
-    .fotos div{
-        width: 550px;
-        padding-left: 0%;
-        padding-inline: 0%;
-    }
-    .fotos a {
-        width: 550px;
-        padding-left: 0%;
-        padding-inline: 0%;
-    } 
-    .fotos {
-        padding-left: 70px;
-        display: flex;
-        display: inline-block;
+    .blackice img {
+    width: 600px;
+    padding-left: 8%;
+    padding-inline: 8%;
     }
     h1, h2 {
         padding-inline: 8%;
@@ -36,44 +22,13 @@
         padding-inline: 8%;
         font-size: medium;
     }
-    .texto {
-        padding-inline: 8%;
-    }
-    table {
-        padding-inline: 8%;
-        font-size: large;
-    }
-    td {
-        border-radius: 4px;
-        font-size: large;
-    }
-    th {
-        border-radius: 4px;
-        font-size: large;
-    }
 }
 
 @media screen and ((min-width:360px ) and (max-width:400px) ) {
-    .fotos img {
-    width: 250px;
+    .blackice img {
+    width: 300px;
     padding-left: 0%;
     padding-inline: 0%;
-    }
-    .fotos div {
-        width: 250px;
-        padding-left: 0%;
-        padding-inline: 0%;
-    }
-    .fotos a {
-        width: 250px;
-        padding-left: 0%;
-        padding-inline: 0%;
-        font-size: medium;
-    }
-    .fotos {
-        padding-left: 30px;
-        display: flex;
-        display: inline-block;
     }
     h1, h2 {
         padding-inline: 0%;
@@ -83,21 +38,6 @@
     p {
         padding-inline: 0%;
         font-size: smaller;
-    }
-    .texto {
-        padding-inline: 0%;
-    }
-    table {
-        padding-inline: 0%;
-        font-size: smaller;
-    }
-    td {
-        border-radius: 1px;
-        font-size: x-small;
-    }
-    th {
-        border-radius: 1px;
-        font-size: x-small;
     }
     .pie {
         margin-inline: 0px;
