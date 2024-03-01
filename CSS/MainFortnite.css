@@ -121,7 +121,7 @@ h1 {
     .secciones {width: 100%;}
     .seccion :first-child :first-child { width: 140px; }
     .titulo-seccion { opacity: 1; font-size: 15px; color: white; top: -5px;}
-    .pie .Info { font-size: 19px; }
+    .pie .Info { font-size: 15px; }
     .Info { font-size: 25px; }
     .secciones { margin-bottom: -40px; width: 95%; }
     .titulo { width: 95%; }
