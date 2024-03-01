@@ -11,6 +11,13 @@
     background-color: #22262c;
 }
 
+.col-1 {
+    grid-area: col-1;
+}
+.portada {
+    grid-area: portada;
+}
+
 body {
     background-color: #d44a4a;
 }
@@ -31,6 +38,6 @@ body {
 
 .izquierda img {
     position: relative;
-
+    margin-block: 40%;
 }
 
