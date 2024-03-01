@@ -77,7 +77,6 @@ body {
 h1 { font-size: 300%; text-align: center; }
 
 .carousel-dark {
-    z-index: -1;
     width: 80%;
     margin-inline: auto;
     margin-bottom: 30px;
