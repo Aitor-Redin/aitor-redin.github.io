@@ -1,0 +1,40 @@
+
+.cuerpo { margin: 0;}
+
+.cuerpo {
+    color: #f7f4f3;
+    width: 90%;
+    margin-inline: auto;
+    margin-block: 20px;
+    display: flex;
+    flex-direction: row;
+    background-color: #22262c;
+}
+
+body {
+    background-color: #d44a4a;
+}
+
+.cuerpo h2 {
+    padding: 20px;
+    margin-top: 0;  
+}
+
+.portada {
+    flex: 1;
+    margin-right: 20px;
+}
+.contenido {
+    flex: 4;
+    margin-left: 20px;
+}
+
+
+.contenedor { display: flex; flex-direction: row; flex-wrap: wrap;}
+.columna { display: flex; flex-direction: column; flex: 1; padding-right: 10px; justify-content: space-between; }
+.columna:last-of-type { padding-right: 0; }
+.columna img { width: 100%; padding-bottom: 10px; }
+.columna img:last-of-type {padding-bottom: 0; }
+
+.col-1 .plataforma { padding-inline: 20px; }
+.col-1 .plataforma h3 { text-decoration: underline; }
