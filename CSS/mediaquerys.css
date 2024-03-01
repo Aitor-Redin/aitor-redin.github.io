@@ -1,10 +1,95 @@
 @media screen and ((min-width:768px ) and (max-width:1024px) ) {
+    .fotos img {
+    width: 350px;
+    padding-left: 0%;
+    padding-inline: 0%;
+    }
+    .fotos div{
+        width: 350px;
+        padding-left: 0%;
+        padding-inline: 0%;
+    }
+    .fotos a {
+        width: 350px;
+        padding-left: 0%;
+        padding-inline: 0%;
+    } 
     .fotos {
-    width: calc(50% - 20px);
+        padding-left: 70px;
+        display: flex;
+    }
+    h1, h2 {
+        padding-inline: 8%;
+        font-size: x-large;
+    }
+    p {
+        padding-inline: 8%;
+        font-size: medium;
+    }
+    .texto {
+        padding-inline: 8%;
+    }
+    table {
+        padding-inline: 8%;
+        font-size: large;
+    }
+    td {
+        border-radius: 4px;
+        font-size: large;
+    }
+    th {
+        border-radius: 4px;
+        font-size: large;
     }
 }
-@media screen and ((min-width:340px ) and (max-width:400px) ) {
+@media screen and ((min-width:340px ) and (max-width:768px) ) {
+    .fotos img {
+    width: 300px;
+    padding-left: 0%;
+    padding-inline: 0%;
+    }
+    .fotos div {
+        width: 300px;
+        padding-left: 0%;
+        padding-inline: 0%;
+    }
+    .fotos a {
+        width: 300px;
+        padding-left: 0%;
+        padding-inline: 0%;
+    }
     .fotos {
-    width: calc(30% - 20px);
+        padding-left: 30px;
+        display: flex;
+    }
+    h1, h2 {
+        padding-inline: 0%;
+        font-size: larger;
+    }
+    p {
+        padding-inline: 0%;
+        font-size: small;
+    }
+    .texto {
+        padding-inline: 0%;
+    }
+    table {
+        padding-inline: 0%;
+        font-size: small;
+    }
+    td {
+        border-radius: 2px;
+        font-size: small;
+    }
+    th {
+        border-radius: 2px;
+        font-size: small;
+    }
+    .pie {
+        margin-inline: 50px;
+
+    }
+    .pie a {
+        display: inline-block;
     }
 }
