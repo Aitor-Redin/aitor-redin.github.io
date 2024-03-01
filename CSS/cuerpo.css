@@ -1,0 +1,43 @@
+
+.cuerpo { margin: 0;}
+
+.cuerpo {
+    color: #f7f4f3;
+    width: 90%;
+    margin-inline: auto;
+    margin-block: 20px;
+    display: flex;
+    flex-direction: row;
+    background-color: #22262c;
+}
+
+.col-1 {
+    grid-area: col-1;
+}
+.portada {
+    grid-area: portada;
+}
+
+body {
+    background-color: #d44a4a;
+}
+
+.portada h2 {
+    padding: 20px;
+    margin-top: 0;  
+}
+
+.contenedor {
+    flex: 1;
+    margin-right: 20px;
+}
+.contenido {
+    flex: 4;
+    margin-left: 20px;
+}
+
+.izquierda img {
+    position: relative;
+    margin-block: 40%;
+}
+
