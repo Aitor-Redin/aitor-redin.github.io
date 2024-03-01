@@ -113,7 +113,7 @@ h1 {
 
 /*/ VERSIÓN MÓVIL ======================================================================================= /*/
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
 
     /*/ PÁGINA PRINCIPAL ----------------------------------------------------- /*/
     .titulo img { width: 70%; }
@@ -121,10 +121,16 @@ h1 {
     .secciones {width: 100%;}
     .seccion :first-child :first-child { width: 140px; }
     .titulo-seccion { opacity: 1; font-size: 15px; color: white; top: -5px;}
-    .pie .Info { font-size: 20px; }
+    .pie .Info { font-size: 19px; }
+    .Info { font-size: 25px; }
+    .secciones { margin-bottom: -40px; width: 95%; }
+    .titulo { width: 95%; }
+    .contenidos { width: 95%; }
+    .separador_secciones {width: 95%;}
+    .carousel-dark { width: 95%; margin-block: 10px; }
 
     /*/ PLATAFORMAS --------------------------------------------------------- /*/
-
+    
 
     /*/ CAPÍTULOS ----------------------------------------------------------- /*/
 
