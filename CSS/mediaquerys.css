@@ -1,22 +1,23 @@
 @media screen and ((min-width:768px ) and (max-width:1024px) ) {
     .fotos img {
-    width: 350px;
+    width: 550px;
     padding-left: 0%;
     padding-inline: 0%;
     }
     .fotos div{
-        width: 350px;
+        width: 550px;
         padding-left: 0%;
         padding-inline: 0%;
     }
     .fotos a {
-        width: 350px;
+        width: 550px;
         padding-left: 0%;
         padding-inline: 0%;
     } 
     .fotos {
         padding-left: 70px;
         display: flex;
+        display: inline-block;
     }
     h1, h2 {
         padding-inline: 8%;
@@ -42,51 +43,55 @@
         font-size: large;
     }
 }
-@media screen and ((min-width:340px ) and (max-width:768px) ) {
+
+@media screen and ((min-width:360px ) and (max-width:400px) ) {
     .fotos img {
-    width: 300px;
+    width: 250px;
     padding-left: 0%;
     padding-inline: 0%;
     }
     .fotos div {
-        width: 300px;
+        width: 250px;
         padding-left: 0%;
         padding-inline: 0%;
     }
     .fotos a {
-        width: 300px;
+        width: 250px;
         padding-left: 0%;
         padding-inline: 0%;
+        font-size: medium;
     }
     .fotos {
         padding-left: 30px;
         display: flex;
+        display: inline-block;
     }
     h1, h2 {
         padding-inline: 0%;
         font-size: larger;
+        text-align: center;
     }
     p {
         padding-inline: 0%;
-        font-size: small;
+        font-size: smaller;
     }
     .texto {
         padding-inline: 0%;
     }
     table {
         padding-inline: 0%;
-        font-size: small;
+        font-size: smaller;
     }
     td {
-        border-radius: 2px;
-        font-size: small;
+        border-radius: 1px;
+        font-size: x-small;
     }
     th {
-        border-radius: 2px;
-        font-size: small;
+        border-radius: 1px;
+        font-size: x-small;
     }
     .pie {
-        margin-inline: 50px;
+        margin-inline: 0px;
 
     }
     .pie a {
