@@ -1,69 +1,45 @@
-/*/ SECCIONES =========================================================================================== /*/
+/*/ SECCIONES =============================================================================================================================== /*/
 
-.Secciones { margin-inline: auto; margin-bottom: 10px; height: 80%;}
-.Secciones h3 { text-align: center; font-size: 30px; margin-top: 0; }
-.Seccion {
-    width: 300px;
-    height: 300px;
-    display: inline-block;
-    margin-inline: 10px;
-    position: relative;
+.secciones {
     margin-bottom: 20px;
-}
-.Funcionamiento { background-image: url(../images/FuncionamientoFortnite.jpg); background-size: cover;}
-.Plataformas { background-image: url(../images/PlataformasFortnite.jpg); background-size: cover; }
-.Capitulos { background-image: url(../images/CapitulosFortnite.jpg); background-size: cover; }
-.Cosmeticos { background-image: url(../images/CosmeticosFortnite.jpg); background-size: cover; }
-
-.Seccion h4 {
-    text-align: center;
-    font-size: 25px;
-    color: white;
-}
-
-.Descripcion {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    background-color: rgba(228, 245, 255, 0.185);
-    transform: translateX(50%) scaleX(0);
-    transition: .5s ease;
-    color: rgb(0, 15, 100);
-}
-
-.Seccion:hover .Descripcion {
-    right: 0;
-    transform: translateX(0) scaleX(1);
-}
-
-.separador_secciones {
-    width: 80%;
-    margin-inline: auto;
-    background-color: white;
-    height: 10px;
-    border-radius: 20px;
-    margin-bottom: 50px;
-}
-
-.Secciones {
-    width: 80%;
     display: flex;
     flex-wrap: wrap;
+    width: 80%;
+    margin-inline: auto;
     justify-content: center;
+
 }
 
-a {
-    margin-block: auto;
-    color: rgb(255, 255, 255);
-    text-decoration: none;
+.seccion {
+    position: relative;
+    margin: 10px;
 }
 
-a:visited { color: rgb(255, 255, 255); }
+.seccion img {
+    width: 300px;
+    transition: transform 0.3s;
+}
 
-a:link { color: white; }
+.seccion:hover img {
+    transform: scale(1.1);
+}
+
+.seccion:hover .titulo-seccion {
+    opacity: 1;
+}
+
+.titulo-seccion {
+    position: absolute;
+    top: -25px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: rgb(2, 0, 90);
+    padding: 5px;
+    font-size: 30px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
 
 /*/ otros =============================================================================================== /*/
 
@@ -88,8 +64,12 @@ body {
 @media screen and (max-width: 600px) {
 
     .titulo img { width: 80%; }
-    .Seccion {width: 140px; height: 140px;}
+    .seccion {width: 140px; height: 140px;}
     .secciones {width: 100%;}
+    .seccion :first-child :first-child { width: 140px; }
+    .titulo-seccion { opacity: 1; font-size: 15px; color: white; top: -5px;}
+
+
 }
 
 .titulo img {max-width: 500px;}
@@ -121,3 +101,11 @@ h1 { font-size: 300%; text-align: center; }
 }
 
 .contenidos img { margin-top: 5px; }
+
+.separador_secciones {
+    width: 80%;
+    margin-inline: auto;
+    background-color: white !important;
+    border-radius: 20px;
+    height: 10px;
+}

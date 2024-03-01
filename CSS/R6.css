@@ -34,7 +34,8 @@ h2 {
     background-color: black;
     text-decoration: none;
     color: whitesmoke;
-    text-align: center;
+    text-align: left;
+    font-size: larger;
 }
 
 .fotos img {
@@ -59,16 +60,9 @@ body {
     background-size: cover ;
 }
 
-.fotos img {
-    max-width: 550px;
-}
 
-.fotos a {
-    float: left;
-    text-decoration: none;
-    color: whitesmoke;
-    font-size: larger;
-}
+
+
 
 .fotos {
     text-align: center;
@@ -85,6 +79,10 @@ body {
     color: whitesmoke;
     border: 2px black;
     text-decoration: none;
+}
+
+.fotos {
+    padding-left: 150px;
 }
 
 p {
@@ -117,9 +115,7 @@ li {
     font-size: larger;
     margin-top: 20px;
 }
-.fotos {
-    padding-left: 150px;
-}
+
 @media screen and ((min-width:768px ) and (max-width:1024px) ) {
     .fotos {
     width: calc(50% - 20px);
