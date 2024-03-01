@@ -1,4 +1,4 @@
-/*/ SECCIONES =========================================================================================== /*/
+/*/ SECCIONES ========================================================================================== /*/
 
 .secciones {
     margin-bottom: 200px;
@@ -43,7 +43,7 @@
 
 
 
-/*/ OTROS =============================================================================================== /*/
+/*/ GENERAL ============================================================================================ /*/
 
 .enlace:visited {color: rgb(0, 132, 255);}
 .enlace:link {color: rgb(0, 132, 255);}
@@ -111,34 +111,9 @@ h1 {
     font-style: italic;
 }
 
-/*/ VERSIÓN MÓVIL ======================================================================================= /*/
-
-@media screen and (max-width: 700px) {
-
-    /*/ PÁGINA PRINCIPAL ----------------------------------------------------- /*/
-    .titulo img { width: 70%; }
-    .seccion {width: 140px; height: 140px;}
-    .secciones {width: 100%;}
-    .seccion :first-child :first-child { width: 140px; }
-    .titulo-seccion { opacity: 1; font-size: 15px; color: white; top: -5px;}
-    .pie .Info { font-size: 15px; }
-    .Info { font-size: 25px; }
-    .secciones { margin-bottom: -40px; width: 95%; }
-    .titulo { width: 95%; }
-    .contenidos { width: 95%; }
-    .separador_secciones {width: 95%;}
-    .carousel-dark { width: 95%; margin-block: 10px; }
-    .contenidos {font-size: 13px;}
-
-    /*/ GENERAL ------------------------------------------------------------- /*/
-    .contenidos h1 { font-size: 30px;}
-    .FloatIzquierda { width: 100%; margin-bottom: 10px}
-    .FloatDerecha { width: 100%; margin-bottom: 10px}
-}
 
 
-
-/*/ PIE DE PÁGINA ======================================================================================= /*/
+/*/ PIE DE PÁGINA ====================================================================================== /*/
 
 .pie {
     padding-block: 50px;
@@ -172,3 +147,30 @@ h1 {
 }
 
 .pie a { transition: transform 0.3s; }
+
+
+
+/*/ VERSIÓN MÓVIL ====================================================================================== /*/
+
+@media screen and (max-width: 700px) {
+
+    /*/ PÁGINA PRINCIPAL ----------------------------------------------------- /*/
+    .titulo img { width: 70%; }
+    .seccion {width: 140px; height: 140px;}
+    .secciones {width: 100%;}
+    .seccion :first-child :first-child { width: 140px; }
+    .titulo-seccion { opacity: 1; font-size: 15px; color: white; top: -5px;}
+    .secciones { margin-bottom: -40px; width: 95%; }
+    .titulo { width: 95%; }
+    .separador_secciones {width: 95%;}
+    .carousel-dark { width: 95%; margin-block: 10px; }
+    .contenidos {font-size: 13px;}
+
+    /*/ GENERAL ------------------------------------------------------------- /*/
+    .contenidos h1 { font-size: 30px;}
+    .FloatIzquierda { width: 100%; margin-bottom: 10px}
+    .FloatDerecha { width: 100%; margin-bottom: 10px}
+    .contenidos { width: 95%; }
+    .pie .Info { font-size: 15px; }
+    .Info { font-size: 25px; }
+}
