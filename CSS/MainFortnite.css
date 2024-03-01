@@ -94,7 +94,7 @@ body {
 
 .titulo img {max-width: 500px;}
 
-h1 { font-size: 300%; }
+h1 { font-size: 300%; text-align: center; }
 
 .carousel-dark {
     width: 80%;
@@ -109,8 +109,10 @@ h1 { font-size: 300%; }
 }
 
 .FloatIzquierda {
-    float: right;
-    width: 50%;
-    margin-left: 20px;
-    margin-bottom: 10px;
+    float: left;
+    width: 60%;
+    margin-right: 15px;
+    margin-bottom: 11px;
 }
+
+.contenidos img { margin-top: 5px; }
