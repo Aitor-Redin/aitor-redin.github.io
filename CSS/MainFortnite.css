@@ -8,11 +8,12 @@
     display: inline-block;
     margin-inline: 10px;
     position: relative;
+    margin-bottom: 20px;
 }
-.Funcionamiento { background-image: url(images/FuncionamientoFortnite.jpg); background-size: cover; }
-.Plataformas { background-image: url(images/PlataformasFortnite.jpg); background-size: cover; }
-.Capitulos { background-image: url(images/CapitulosFortnite.jpg); background-size: cover; }
-.Cosmeticos { background-image: url(images/CosmeticosFortnite.jpg); background-size: cover; }
+.Funcionamiento { background-image: url(../images/FuncionamientoFortnite.jpg); background-size: cover;}
+.Plataformas { background-image: url(../images/PlataformasFortnite.jpg); background-size: cover; }
+.Capitulos { background-image: url(../images/CapitulosFortnite.jpg); background-size: cover; }
+.Cosmeticos { background-image: url(../images/CosmeticosFortnite.jpg); background-size: cover; }
 
 .Seccion h4 {
     text-align: center;
@@ -50,6 +51,7 @@
 .Secciones {
     width: 80%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
 }
 
@@ -59,15 +61,14 @@ a {
     text-decoration: none;
 }
 
-a:visited {
-    color: rgb(255, 255, 255);
-}
+a:visited { color: rgb(255, 255, 255); }
 
-a:link {
-    color: white;
-}
+a:link { color: white; }
 
 /*/ otros =============================================================================================== /*/
+
+.enlace:visited {color: rgb(0, 132, 255);}
+.enlace:link {color: rgb(0, 132, 255);}
 
 body {
     background-color: black !important;
@@ -77,10 +78,23 @@ body {
 }
 
 .titulo {
-    width: 30%;
+    width: 80%;
     margin-inline: auto;
-    .titulo img { width: 100%; height: 250px;}
+    text-align: center;
+    margin-block: 40px;
+
 }
+
+@media screen and (max-width: 600px) {
+
+    .titulo img { width: 80%; }
+    .Seccion {width: 140px; height: 140px;}
+    .secciones {width: 100%;}
+}
+
+.titulo img {max-width: 500px;}
+
+h1 { font-size: 300%; }
 
 .carousel-dark {
     width: 80%;
@@ -92,4 +106,11 @@ body {
     width: 80%;
     margin-inline: auto;
     text-align: justify;
+}
+
+.FloatIzquierda {
+    float: right;
+    width: 50%;
+    margin-left: 20px;
+    margin-bottom: 10px;
 }

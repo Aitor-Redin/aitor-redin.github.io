@@ -11,29 +11,30 @@ h2 {
     font-family: 'Times New Roman', Times, serif;
     font-size: xx-large;
     text-decoration: underline;
+    margin: top 15px; ;
 }
 
 .cuerpo {
     width: 70%;
     margin: auto;
-    background-image: "";
 }
 
 
 .fotos div {
-    text-align: center;
     padding-bottom: 10px;
-    padding-inline: 15%;
+    padding-left: 100px;
+    text-align: center;
 }
 
 .fotos a {
-    width: 525px;
+    width: 500px;
     margin: 20px;
     border: 1px solid lightgray;
     float: left;
     background-color: black;
     text-decoration: none;
     color: whitesmoke;
+    text-align: center;
 }
 
 .fotos img {
@@ -45,17 +46,6 @@ h2 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-@media screen and ((min-width:768px ) and (max-width:1024px) ) {
-    .card {
-    width: calc(50% - 20px);
-    }
-}
-
-@media screen and ((min-width:340px ) and (max-width:400px) ) {
-    .card {
-    width: calc(100% - 20px);
-    }
-}
 .texto {
     color: whitesmoke; 
     padding-inline: 15%;
@@ -65,7 +55,7 @@ h2 {
 }
 
 body {
-    background-image: url(../IMAGES/R6fondo2.webp);
+    background-color: rgba(33, 33, 142, 0.455);
     background-size: cover ;
 }
 
@@ -129,4 +119,15 @@ li {
 }
 .fotos {
     padding-left: 150px;
+}
+@media screen and ((min-width:768px ) and (max-width:1024px) ) {
+    .fotos {
+    width: calc(50% - 20px);
+    }
+}
+
+@media screen and ((min-width:340px ) and (max-width:400px) ) {
+    .fotos {
+    width: calc(100% - 20px);
+    }
 }

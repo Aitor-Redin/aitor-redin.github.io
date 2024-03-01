@@ -1,0 +1,48 @@
+h1{
+    color: whitesmoke;
+    padding-inline: 15%;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: underline;
+}
+
+body {
+    width: 70%;
+    margin: auto;
+    background-color: rgb(20, 99, 73);
+    background-size: cover;
+}
+
+form {
+    border-color: black;
+    border-width: 3px;
+    border-radius: 3px;
+    border-style: solid;
+    width: fit-content;
+    margin-inline: auto;
+    margin-top: 20px;
+    padding: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+input {
+    display: block;
+}
+
+.form1 {
+    font-size: 22px;
+    text-align: left;
+    padding: 8px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p {
+    padding-inline: 15%;
+    text-align: justify;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.Noleer p {
+    color: whitesmoke;
+    font-size: 7px;
+}
