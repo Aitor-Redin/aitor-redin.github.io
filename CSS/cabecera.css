@@ -1,5 +1,3 @@
-
-
 .enlace {
     text-decoration: none;
     color: red;
@@ -33,8 +31,6 @@
     margin-top: 20px;
 }
 
-
-
 .menu_buttons {
     margin-left: 80px;
 }
@@ -51,6 +47,7 @@
 
 .dropdown {
     display: inline-block;
+    
 }
 
 .dropdown_content {
