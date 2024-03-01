@@ -121,20 +121,25 @@ h1 {
     .secciones {width: 100%;}
     .seccion :first-child :first-child { width: 140px; }
     .titulo-seccion { opacity: 1; font-size: 15px; color: white; top: -5px;}
-    .pie .Info { font-size: 19px; }
+    .pie .Info { font-size: 15px; }
     .Info { font-size: 25px; }
     .secciones { margin-bottom: -40px; width: 95%; }
     .titulo { width: 95%; }
     .contenidos { width: 95%; }
     .separador_secciones {width: 95%;}
     .carousel-dark { width: 95%; margin-block: 10px; }
+    .contenidos {font-size: 13px;}
+
 
     /*/ PLATAFORMAS --------------------------------------------------------- /*/
     
 
     /*/ CAPÍTULOS ----------------------------------------------------------- /*/
 
-
+    /*/ GENERAL ------------------------------------------------------------- /*/
+    .contenidos h1 { font-size: 30px;}
+    .FloatIzquierda { width: 100%; margin-bottom: 10px}
+    .FloatDerecha { width: 100%; margin-bottom: 10px}
 }
 
 
