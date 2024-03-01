@@ -17,6 +17,7 @@ h3 {
 .deimos {
     padding-left: 15%;
     height: 300px;
+    width: 1050px;
 }
 
 .desc {
@@ -36,6 +37,7 @@ h3 {
     float: left;
     padding-right: 5px;
     padding-bottom: 20px;
+    max-height: 250px;
 }
 
 .parrafoDeimos {
