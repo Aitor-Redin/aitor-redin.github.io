@@ -1,12 +1,12 @@
 .enlace {
     text-decoration: none;
-    color: red;
+    color: white;
     padding: 10px;
     transition: color 0.3s ease;
 }
 
 .enlace:hover {
-    color: crimson;
+    color: red;
 }
 
 .cabecera {
