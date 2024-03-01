@@ -1,3 +1,4 @@
+
 img {
     width: 600px;
     height: 400px;
@@ -44,61 +45,44 @@ body {
 -------------------------------------------------
 
 
-.slider-box {
-    width: 20px;
-    height: 40px;
+.slider-frame {
+    width: 100%;
+    height: auto;
     margin: 50px auto 0;
-
-}
-
-.slider-box img {
-    width: 100%;
-}
-
-
-.slider-box ul {
-    display: flex;
-    padding: 0%;
-    width: 300%;
-    animation: slide 20s infinite alternate ease-in-out;
-}
-
-.slider-box li {
-    width: 100%;
-    list-style: none;
+    overflow: hidden; 
     position: relative;
 }
 
-.texto {
-    position: absolute;
-    text-align: center;
-    padding:  40%;
-    top: 30%;
-    color: red;
+.slider-frame ul {
+    display: flex;
+    padding: 0;
+    width: 400%;
+    animation: slide 20s infinite alternate ease-in-out;
+    list-style: none;
+    position: relative;
+    left: 0;
 }
 
-.texto h3 {
-    font-size: 45px;
-    margin-bottom: 35px;
+.slider-frame li {
+    list-style: none;
+    width: 100%;  
+    box-sizing: border-box; 
 }
 
-.slider-box img {
+.slider-frame img {
     width: 100%;
 }
 
 @keyframes slide {
-    0% {margin-left: 0;}
-    20% {margin-left: 0;}
+    0% {margin-left: 0%;}
+    20% {margin-left: 0%;}
 
     25% {margin-left: -100%;}
     45% {margin-left: -100%;}
 
     50% {margin-left: -200%;}
-    700% {margin-left: -200%;}
+    70% {margin-left: -200%;}
 
     75% {margin-left: -300%;}
-    100% {margin-left: -300%;}
-
-    100% {margin-left: 0;}
+    95% {margin-left: -300%;}
 }
-
