@@ -3,6 +3,7 @@ h1{
     padding-inline: 15%;
     font-family: 'Times New Roman', Times, serif;
     text-decoration: underline;
+    text-align: center;
 }
 
 body {
@@ -44,5 +45,8 @@ p {
 
 .Noleer p {
     color: whitesmoke;
-    font-size: 7px;
+    font-size: 5px;
+    text-align: center;
+    width: 24%;
+    margin: auto;
 }
