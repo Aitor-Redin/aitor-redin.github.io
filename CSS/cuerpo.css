@@ -19,6 +19,7 @@ img {
 .col-1 {
     grid-area: col-1;
 }
+
 .portada {
     grid-area: portada;
 }
