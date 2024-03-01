@@ -119,6 +119,8 @@ li {
 }
 .fotos {
     padding-left: 150px;
+
+
 }
 @media screen and ((min-width:768px ) and (max-width:1024px) ) {
     .fotos {
@@ -130,4 +132,13 @@ li {
     .fotos {
     width: calc(100% - 20px);
     }
+}
+
+.mapaweb2 {
+    padding-top: 5px;
+    text-align: left;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-inline: 15%;
+    text-decoration: none;
 }
