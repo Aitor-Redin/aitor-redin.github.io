@@ -25,28 +25,18 @@ h3 {
     font-size: large;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: whitesmoke;
-    padding-top: 20px;
-}
-.contenido {
-    display: flex;
-    flex-direction: column;
+    padding-top: 10px;
 }
 
-.contenidoflex {
-    display: flex;
-    flex-direction: row;
-    align-items: center; 
-}
 
-.imgdeimos {
+.imgdeimos img {
     margin-right: 20px; 
     width: 600px;
     padding-bottom: 10px;
-    padding-left: 10%;
+    padding-left: 15%;
 }
 
 .parrafoDeimos {
-    flex: 1; 
     text-align: justify;
     font-size: large;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -56,8 +46,8 @@ h3 {
 @media screen and ((min-width:768px ) and (max-width:1024px) ) {
     .deimos {
     width: 550px;
-    padding-left: 0%;
-    padding-inline: 0%;
+    padding-left: 8%;
+    padding-inline: 8%;
     }
     h1, h2 {
         padding-inline: 8%;
@@ -69,8 +59,8 @@ h3 {
     }
     .imgdeimos img{
         width: 550px;
-        padding-left: 0%;
-        padding-inline: 0%;
+        padding-left: 8%;
+        padding-inline: 8%;
     }
 }
 
@@ -85,15 +75,21 @@ h3 {
         width: 250px;
         padding-left: 0%;
         padding-inline: 0%;
+        height: 200px;
     }
     h1, h2 {
         padding-inline: 0%;
         font-size: larger;
         text-align: center;
     }
-    p {
+    .parrafoDeimos {
         padding-inline: 0%;
         font-size: smaller;
+    }
+    .desc {
+        padding-inline: 0%;
+        font-size: smaller;
+        
     }
     .pie {
         margin-inline: 0px;
