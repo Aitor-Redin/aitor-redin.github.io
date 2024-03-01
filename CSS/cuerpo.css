@@ -1,4 +1,4 @@
-
+/*/================================================== CUERPO ============================================================/*/
 img {
     width: 600px;
     height: 400px;
@@ -42,7 +42,7 @@ body {
     margin-left: 20px;
 }
 
--------------------------------------------------
+/*/================================================== CARRUSEL ============================================================/*/
 
 
 .slider-frame {
@@ -86,3 +86,37 @@ body {
     75% {margin-left: -300%;}
     95% {margin-left: -300%;}
 }
+
+/*/================================================== PIE ============================================================/*/
+.pie {
+    padding-block: 50px;
+    padding-inline: 12%;
+    margin-top: 100px;
+    background-color:#22262c;
+}
+
+.pie p { text-align: justify !important; }
+
+.pie a {
+    padding-left: 10px;
+    text-align: justify !important;
+    display: list-item;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.pie a:visited {
+    color: rgb(255, 255, 255);
+}
+
+.pie a:hover {
+    color: red;
+    transform: scale(1.02);
+    transition: transform 0.3s;
+}
+
+.MapaLink {
+    display: inline-block;
+}
+
+.pie a { transition: transform 0.3s; }
