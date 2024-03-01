@@ -11,12 +11,12 @@ h3 {
     font-family: 'Times New Roman', Times, serif;
     font-size: x-large;
     text-decoration: underline;
-    padding-top: 100px;
 }
 
 .deimos {
     padding-left: 15%;
     height: 300px;
+    width: 1050px;
 }
 
 .desc {
@@ -25,31 +25,29 @@ h3 {
     font-size: large;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: whitesmoke;
-    padding-top: 20px;
+    padding-top: 10px;
 }
 
-.imgdeimos {
-    width: 400px;
-    text-align: center;
+
+.imgdeimos img {
+    margin-right: 20px; 
+    width: 600px;
     padding-bottom: 10px;
     padding-left: 15%;
-    float: left;
-    padding-right: 5px;
-    padding-bottom: 20px;
 }
 
 .parrafoDeimos {
-    padding-inline: 15%;
     text-align: justify;
     font-size: large;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: whitesmoke;
 }
+
 @media screen and ((min-width:768px ) and (max-width:1024px) ) {
     .deimos {
     width: 550px;
-    padding-left: 0%;
-    padding-inline: 0%;
+    padding-left: 8%;
+    padding-inline: 8%;
     }
     h1, h2 {
         padding-inline: 8%;
@@ -61,8 +59,8 @@ h3 {
     }
     .imgdeimos img{
         width: 550px;
-        padding-left: 0%;
-        padding-inline: 0%;
+        padding-left: 8%;
+        padding-inline: 8%;
     }
 }
 
@@ -77,15 +75,21 @@ h3 {
         width: 250px;
         padding-left: 0%;
         padding-inline: 0%;
+        height: 200px;
     }
     h1, h2 {
         padding-inline: 0%;
         font-size: larger;
         text-align: center;
     }
-    p {
+    .parrafoDeimos {
         padding-inline: 0%;
         font-size: smaller;
+    }
+    .desc {
+        padding-inline: 0%;
+        font-size: smaller;
+        
     }
     .pie {
         margin-inline: 0px;
