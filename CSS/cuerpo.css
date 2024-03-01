@@ -41,3 +41,7 @@ body {
     margin-block: 40%;
 }
 
+.carouselExampleIndicators img {
+    height: 400px;
+    width: 300px;
+}
