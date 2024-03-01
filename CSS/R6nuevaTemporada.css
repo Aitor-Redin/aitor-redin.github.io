@@ -45,3 +45,54 @@ h3 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: whitesmoke;
 }
+@media screen and ((min-width:768px ) and (max-width:1024px) ) {
+    .deimos {
+    width: 550px;
+    padding-left: 0%;
+    padding-inline: 0%;
+    }
+    h1, h2 {
+        padding-inline: 8%;
+        font-size: x-large;
+    }
+    p {
+        padding-inline: 8%;
+        font-size: medium;
+    }
+    .imgdeimos img{
+        width: 550px;
+        padding-left: 0%;
+        padding-inline: 0%;
+    }
+}
+
+@media screen and ((min-width:360px ) and (max-width:400px) ) {
+    .deimos  {
+    width: 300px;
+    padding-left: 0%;
+    padding-inline: 0%;
+    display: none;
+    }
+    .imgdeimos img {
+        width: 250px;
+        padding-left: 0%;
+        padding-inline: 0%;
+    }
+    h1, h2 {
+        padding-inline: 0%;
+        font-size: larger;
+        text-align: center;
+    }
+    p {
+        padding-inline: 0%;
+        font-size: smaller;
+    }
+    .pie {
+        margin-inline: 0px;
+
+    }
+    .pie a {
+        display: inline-block;
+    }
+
+}
