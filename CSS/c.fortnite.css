@@ -1,77 +1,77 @@
 :root {
-    --color_letra: #2AAEF0;
+    --color_letra: #2AAEF0 !important;
 }
 
 .enlace {
-    text-decoration: none;
-    color: #2AAEF0;
+    text-decoration: none !important;
+    color: #2AAEF0 !important;
 }
 
 .cabecera {
-    font-family: Arial, sans-serif;
-    font-size: 20px;
-    position: sticky;
-    top: 0;
-    background-color: #22262c;
-    color: #2AAEF0;
+    font-family: Arial, sans-serif !important;
+    font-size: 20px !important;
+    position: sticky !important;
+    top: 0 !important;
+    background-color: #22262c !important;
+    color: #2AAEF0 !important;
 }
 
 .menu {
-    width: 80%;
-    margin: auto;
+    width: 80% !important;
+    margin: auto !important;
 }
 
 .logo a{
-    display: inline-block;
-    height: 42px;
-    position: absolute;
-    bottom: 5px;
+    display: inline-block !important;
+    height: 42px !important;
+    position: absolute !important;
+    bottom: 5px !important;
 }
 
 .logo  img {
-    height: 100%;
-    width: 100%;
-    background-color: #2AAEF0;
-    margin-top: 20px;
+    height: 100% !important;
+    width: 100% !important;
+    background-color: #2AAEF0 !important;
+    margin-top: 20px !important;
 }
 
 .menu_buttons {
-    margin-left: 80px;
+    margin-left: 80px !important;
 }
 
 .cabecera a {
-    cursor: pointer;
+    cursor: pointer !important;
 }
 
 .cabecera a {
-    padding-inline: 30px;
-    padding-block: 20px;
-    display: inline-block;
+    padding-inline: 30px !important;
+    padding-block: 20px !important;
+    display: inline-block !important;
 }
 
 .dropdown {
-    display: inline-block;
+    display: inline-block !important;
 }
 
 .dropdown_content {
-    display: none;
-    position: absolute;
-    z-index: 1;
-    background-color: #1b1e22;
+    display: none !important;
+    position: absolute !important;
+    z-index: 1 !important;
+    background-color: #1b1e22 !important;
 }
 
 .dropdown:hover .dropdown_content {
-    display: block;
+    display: block !important;
 }
 
 .dropdown_content a {
-    display: block;
+    display: block !important;
 }
 
 .cabecera i {
-    display: inline;
-    padding-left: 10px;
-    line-height: 0;
-    position: relative;
-    top: 5px;
+    display: inline !important;
+    padding-left: 10px !important;
+    line-height: 0 !important;
+    position: relative !important;
+    top: 5px !important;
 }
