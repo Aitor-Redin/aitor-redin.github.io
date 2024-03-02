@@ -77,8 +77,19 @@
     top: 5px;
 }
 
+/*/ VERSIÓN MÓVIL ====================================================================================== /*/
 
+@media screen and (max-width: 620px) {
+    .cabecera {font-size: 12px; height: 40px;}
+    .logo  img {
+        height: 20px;
+        background-color: #0059ff;
+        margin-top: 0px;
+        margin-left: -10px;
+    }
+    .cabecera a {margin-inline: auto; margin-top: -9px; padding-inline: 5px;}
 
-/*/ TEMPORAL =========================================/*/
+    a.enlace {padding-inline: 5px;}
 
-.cabecera {display: none;} /* oculta hasta que esté optimizada para móvil */
+    i.material-icons {padding-inline: 5px; margin-top: -90px;}
+}
