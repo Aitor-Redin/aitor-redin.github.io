@@ -1,7 +1,8 @@
 /*/ SECCIONES ========================================================================================== /*/
 
 .juegos {
-    margin-bottom: 200px;
+    margin-top: 30px;
+    margin-bottom: 30px;
     display: flex;
     flex-wrap: wrap;
     width: 70%;
@@ -22,10 +23,11 @@
 
 .juego:hover img {
     transform: scale(1.1);
+    opacity: 1;
 }
 
 .juego:hover .titulo-seccion {
-    opacity: 1;
+    opacity: 3;
 }
 
 .titulo-juego {
@@ -41,11 +43,27 @@
     transition: opacity 0.3s;
 }
 
+
+/*/ BODY =============================================================================== /*/
+body {
+    background-color: rgb(255, 238, 238);
+    width: 80%;
+    margin-inline: auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    z-index: -2;
+}
+
+.infoshooters {
+    padding: 20px;
+    background-color: rgb(255, 201, 201);
+}
+
 /*/================================================== PIE ============================================================/*/
 
 .pie {
     margin-top: 10px;
-    background-color:lightblue ;
+    background-color:rgb(255, 201, 201) ;
 }
 .pie a {
     display: list-item;
@@ -54,7 +72,7 @@
     max-width: 100px;
 }
 .pie a:visited {
-    color: gray;
+    color: rgb(58, 58, 58);
 }
 .pie a:hover {
     background-color: aqua;
