@@ -4,7 +4,21 @@ img {
     height: 400px;
 }
 
+.izquierda img {
+    width: 50%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.resto img {
+    width: 70%;
+    height: auto;
+}
+
 .cuerpo { margin: 0;}
+
 
 .cuerpo {
     color: #f7f4f3;
@@ -22,6 +36,10 @@ img {
 
 .portada {
     grid-area: portada;
+}
+
+.portada h1 {
+    text-align: center;
 }
 
 body {
