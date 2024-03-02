@@ -59,3 +59,25 @@ img {
     100% {margin-left: -300%;}
 
 }
+
+/*/================================================== PIE ============================================================/*/
+
+.pie {
+    margin-top: 10px;
+    background-color:lightblue ;
+}
+.pie a {
+    display: list-item;
+    color: black;
+    text-decoration: none;
+    max-width: 100px;
+}
+.pie a:visited {
+    color: gray;
+}
+.pie a:hover {
+    background-color: aqua;
+}
+.MapaLink {
+    display: inline-block;
+}
