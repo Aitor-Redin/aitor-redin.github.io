@@ -1,0 +1,95 @@
+:root {
+    --color_letra: #2AAEF0;
+}
+
+.enlace {
+    text-decoration: none;
+    color: #2AAEF0;
+}
+
+.cabecera {
+    z-index: 3;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    position: sticky;
+    top: 0;
+    background-color: #22262c;
+    color: #006eff;
+}
+
+.menu {
+    width: 80%;
+    margin: auto;
+}
+
+.logo a{
+    display: inline-block;
+    height: 42px;
+    position: absolute;
+    bottom: 5px;
+}
+
+.logo  img {
+    height: 50px;
+    background-color: #0059ff;
+    margin-top: -50px;
+    margin-left: -30px;
+}
+
+.menu_buttons {
+    margin-left: 80px;
+}
+
+.cabecera a {
+    cursor: pointer;
+}
+
+.cabecera a {
+    padding-inline: 30px;
+    padding-block: 20px;
+    display: inline-block;
+}
+
+.dropdown {
+    display: inline-block;
+}
+
+.dropdown_content {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    background-color: #1b1e22;
+}
+
+.dropdown:hover .dropdown_content {
+    display: block;
+}
+
+.dropdown_content a {
+    display: block;
+}
+
+.cabecera i {
+    display: inline;
+    padding-left: 10px;
+    line-height: 0;
+    position: relative;
+    top: 5px;
+}
+
+/*/ VERSIÓN MÓVIL ====================================================================================== /*/
+
+@media screen and (max-width: 620px) {
+    .cabecera {font-size: 12px; height: 40px;}
+    .logo  img {
+        height: 20px;
+        background-color: #0059ff;
+        margin-top: 0px;
+        margin-left: -10px;
+    }
+    .cabecera a {margin-inline: auto; margin-top: -10px; padding-inline: 0px;}
+
+    a.enlace {padding-inline: 20px; margin-left: -10px;}
+
+    i.material-icons {padding-inline: 5px;}
+}
