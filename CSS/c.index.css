@@ -6,7 +6,7 @@
 }
 
 .enlace:hover {
-    color: red;
+    color: green;
 }
 
 .cabecera {
@@ -15,7 +15,7 @@
     position: sticky;
     top: 0;
     background-color: #22262c;
-    color: red;
+    color: white;
 }
 
 .menu {
@@ -33,7 +33,6 @@
 .logo  img {
     height: 100%;
     width: 100%;
-    background-color: red;
     margin-top: 20px;
 }
 
