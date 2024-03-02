@@ -1,15 +1,15 @@
 /*/================================================== CUERPO ============================================================/*/
+
+
 img {
     width: 600px;
     height: 400px;
 }
 
 .izquierda img {
-    width: 50%;
+    width: 600px;
     height: auto;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    padding-left: 375px;
 }
 
 .resto img {
@@ -17,14 +17,15 @@ img {
     height: auto;
 }
 
-.cuerpo { margin: 0;}
+.cuerpo { margin: 3%;}
+
 
 
 .cuerpo {
     color: #f7f4f3;
     width: 90%;
     margin-inline: auto;
-    margin-block: 20px;
+    margin-block-end: 20px;
     display: flex;
     flex-direction: row;
     background-color: #22262c;
@@ -32,10 +33,16 @@ img {
 
 .col-1 {
     grid-area: col-1;
+    width: 100px;
+    background-color: #22262c;
+    padding: 20px;
 }
 
 .portada {
     grid-area: portada;
+    width: calc(100% - 100px);
+    margin-left: 100px;
+    padding: 20px;
 }
 
 .portada h1 {
@@ -44,6 +51,7 @@ img {
 
 body {
     background-color: #d44a4a;
+    position: relative;
 }
 
 .portada h2 {
