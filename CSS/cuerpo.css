@@ -9,7 +9,7 @@ img {
 .izquierda img {
     width: 600px;
     height: auto;
-    padding-left: 375px;
+    margin-inline: 28%;
 }
 
 .resto img {
@@ -25,23 +25,18 @@ img {
     color: #f7f4f3;
     width: 90%;
     margin-inline: auto;
-    margin-block-end: 20px;
+    margin-block: 20px;
     display: flex;
     flex-direction: row;
     background-color: #22262c;
 }
 
-.col-1 {
-    grid-area: col-1;
-    width: 100px;
-    background-color: #22262c;
-    padding: 20px;
-}
+
 
 .portada {
     grid-area: portada;
     width: calc(100% - 100px);
-    margin-left: 100px;
+    margin-inline: 3%;
     padding: 20px;
 }
 
