@@ -1,7 +1,12 @@
-
 .enlace {
     text-decoration: none;
     color: white;
+    padding: 10px;
+    transition: color 0.3s ease;
+}
+
+.enlace:hover {
+    color: red;
 }
 
 .cabecera {
@@ -10,7 +15,7 @@
     position: sticky;
     top: 0;
     background-color: #22262c;
-    color: white;
+    color: red;
 }
 
 .menu {
@@ -28,7 +33,8 @@
 .logo  img {
     height: 100%;
     width: 100%;
-    padding-top: 20px;
+    background-color: red;
+    margin-top: 20px;
 }
 
 .menu_buttons {
@@ -47,6 +53,7 @@
 
 .dropdown {
     display: inline-block;
+    position: relative;
 }
 
 .dropdown_content {
@@ -54,6 +61,7 @@
     position: absolute;
     z-index: 1;
     background-color: #1b1e22;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 02);
 }
 
 .dropdown:hover .dropdown_content {
@@ -62,6 +70,14 @@
 
 .dropdown_content a {
     display: block;
+    color: whitesmoke;
+    padding: 10px;
+    text-decoration: none;
+    transition: background-color 0,3 ease;
+}
+
+.dropdown_content a:hover{
+    background-color: aliceblue;
 }
 
 .cabecera i {
@@ -71,3 +87,4 @@
     position: relative;
     top: 5px;
 }
+
