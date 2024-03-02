@@ -130,6 +130,7 @@ h1 {
     display: list-item;
     color: rgb(255, 255, 255);
     text-decoration: none;
+    max-width: 30%;
 }
 
 .pie a:visited {
@@ -164,7 +165,9 @@ h1 {
     .titulo { width: 95%; }
     .separador_secciones {width: 95%;}
     .carousel-dark { width: 95%; margin-block: 10px; }
-    .contenidos {font-size: 13px;}
+    .contenidos { font-size: 13px; }
+    .seccion:hover img { transform: none; }
+    .seccion img { width: 300px; transform: none;}
 
     /*/ GENERAL ------------------------------------------------------------- /*/
     .contenidos h1 { font-size: 30px;}
@@ -173,4 +176,5 @@ h1 {
     .contenidos { width: 95%; }
     .pie .Info { font-size: 15px; }
     .Info { font-size: 25px; }
+    .pie a{ max-width: 35%; }
 }
