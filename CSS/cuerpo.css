@@ -1,10 +1,25 @@
 /*/================================================== CUERPO ============================================================/*/
+
+
 img {
     width: 600px;
     height: 400px;
 }
 
-.cuerpo { margin: 0;}
+.izquierda img {
+    width: 50%;
+    height: auto;
+    margin-inline: 28%;
+}
+
+.resto img {
+    width: 70%;
+    height: auto;
+}
+
+.cuerpo { margin: 3%;}
+
+
 
 .cuerpo {
     color: #f7f4f3;
@@ -16,16 +31,22 @@ img {
     background-color: #22262c;
 }
 
-.col-1 {
-    grid-area: col-1;
-}
+
 
 .portada {
     grid-area: portada;
+    width: calc(100% - 100px);
+    margin-inline: 3%;
+    padding: 20px;
+}
+
+.portada h1 {
+    text-align: center;
 }
 
 body {
     background-color: #d44a4a;
+    position: relative;
 }
 
 .portada h2 {
@@ -114,7 +135,10 @@ body {
     background-color:#22262c;
 }
 
-.pie p { text-align: justify !important; }
+.pie p { 
+    text-align: justify !important; 
+    color: red;
+}
 
 .pie a {
     padding-left: 10px;
@@ -139,3 +163,4 @@ body {
 }
 
 .pie a { transition: transform 0.3s; }
+
