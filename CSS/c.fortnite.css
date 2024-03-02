@@ -1,14 +1,9 @@
-:root {
-    --color_letra: #2AAEF0;
-}
-
 .enlace {
     text-decoration: none;
-    color: #2AAEF0;
+    color: #006eff;
 }
 
 .cabecera {
-    z-index: 3;
     font-family: Arial, sans-serif;
     font-size: 20px;
     position: sticky;
@@ -30,10 +25,10 @@
 }
 
 .logo  img {
-    height: 50px;
-    background-color: #0059ff;
-    margin-top: -50px;
-    margin-left: -30px;
+    height: 100%;
+    width: 100%;
+    margin-top: 15px;
+    background-color: #002fff;
 }
 
 .menu_buttons {
@@ -82,9 +77,10 @@
 @media screen and (max-width: 620px) {
     .cabecera {font-size: 12px; height: 40px;}
     .logo  img {
-        height: 20px;
+        height: 35px;
+        width: 42px;
         background-color: #0059ff;
-        margin-top: 0px;
+        margin-top: 29px;
         margin-left: -10px;
     }
     .cabecera a {margin-inline: auto; margin-top: -10px; padding-inline: 0px;}
