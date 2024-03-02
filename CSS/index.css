@@ -42,7 +42,7 @@ img {
 }
 
 .slider-frame img {
-    width: 80%;
+    width: 100%;
 }
 
 @keyframes slide {
