@@ -87,9 +87,9 @@
         margin-top: 0px;
         margin-left: -10px;
     }
-    .cabecera a {margin-inline: auto; margin-top: -9px; padding-inline: 5px;}
+    .cabecera a {margin-inline: auto; margin-top: -10px; padding-inline: 0px;}
 
-    a.enlace {padding-inline: 5px;}
+    a.enlace {padding-inline: 20px; margin-left: -10px;}
 
-    i.material-icons {padding-inline: 5px; margin-top: -90px;}
+    i.material-icons {padding-inline: 5px;}
 }
