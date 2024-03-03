@@ -77,5 +77,10 @@ body {
 
 /*/ VERSIÓN MÓVIL ========================================================================= /*/
 @media screen and (max-width: 830px) {
-    
+    .juego {width: 140px; height: 140px;}
+    .juego :first-child :first-child { width: 140px; }
+    .infoshooters { font-size: 13px; width: 85%; margin-bottom: -10px;}
+    .juego:hover img { transform: none; }
+    .pie { font-size: 14px; }
+    .pie a { max-width: 30%; }
 }
