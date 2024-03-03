@@ -107,27 +107,31 @@ div .cabecera { z-index: 9000; }
 
 /*/================================================== MEDIA ============================================================/*/
 
-@media only screen and (max-width: 700px) {
+@media screen and (max-width: 700px) {
     
     .cabecera {
-        padding: 15px;
         text-align: center;
+        float: left;
+        z-index: 5;
+        max-width: 50px;
+        display: list-item;
+        min-height: auto;
     }
-
+    
 
     nav {
         display: flex;
         align-items: center;
+        padding: 0%;
     }
 
     .menu {
-        width: 100%;
-        background-color: #22262c;
+        height: 100%;
         display: none;
         position: absolute;
         flex-direction: column;
         align-items: center;
-        z-index: 1;
+        z-index: 5;
     }
 
     .menu_buttons {
@@ -139,6 +143,7 @@ div .cabecera { z-index: 9000; }
 
     .checkbtn {
         display: block;
+        float: left;
     }
 
 }
