@@ -6,10 +6,11 @@
 }
 
 .enlace:hover {
-    color: green;
+    color: rgb(168, 148, 59);
 }
 
 .cabecera {
+    z-index: 1;
     font-family: Arial, sans-serif;
     font-size: 20px;
     position: sticky;
