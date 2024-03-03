@@ -71,11 +71,13 @@ h1 {
     text-align: center;
 }
 
-.carousel-dark {
+.carousel-dark{
     width: 70%;
     margin-inline: auto;
     margin-bottom: 30px;
 }
+
+.carousel-dark img { border-radius: 10px; }
 
 .contenidos {
     width: 70%;
