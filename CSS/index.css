@@ -77,8 +77,8 @@ body {
 
 /*/ VERSIÓN MÓVIL ========================================================================= /*/
 @media screen and (max-width: 830px) {
-    .juegos { margin-block: 10px; }
-    .juego {width: 105px; height: 105px;}
+    .juegos { margin-block: 10px;}
+    .juego {width: 105px; height: 105px; margin: 5px;}
     .juego :first-child :first-child { width: 105px; }
     .infoshooters { font-size: 13px; width: 81%; margin-bottom: -10px;}
     .juego:hover img { transform: none; }
