@@ -10,6 +10,7 @@
 }
 
 .cabecera {
+    z-index: 1;
     font-family: Arial, sans-serif;
     font-size: 20px;
     position: sticky;

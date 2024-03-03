@@ -1,7 +1,7 @@
 /*/ SECCIONES ========================================================================================== /*/
 
 .juegos {
-    margin-top: 30px;
+    margin-top: 50px;
     margin-bottom: 30px;
     display: flex;
     flex-wrap: wrap;
@@ -26,18 +26,18 @@
     opacity: 1;
 }
 
-.juego:hover .titulo-seccion {
-    opacity: 3;
+.juego:hover .titulo-juego {
+    opacity: 1;
 }
 
 .titulo-juego {
+    font-style: bold;
     position: absolute;
-    top: -20px;
+    top: -60px;
     left: 0;
     right: 0;
     text-align: center;
-    color: rgb(2, 0, 90);
-    padding: 5px;
+    color: rgb(0, 0, 0);
     font-size: 30px;
     opacity: 0;
     transition: opacity 0.3s;
@@ -46,7 +46,7 @@
 
 /*/ BODY =============================================================================== /*/
 body {
-    background-color: rgb(255, 238, 238);
+    background-color: rgb(226, 219, 185);
     width: 80%;
     margin-inline: auto;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -55,15 +55,18 @@ body {
 }
 
 .infoshooters {
-    padding: 20px;
-    background-color: rgb(255, 201, 201);
+    border-radius: 20px;
+    padding: 30px;
+    background-color: rgb(255, 251, 243);
 }
 
 /*/================================================== PIE ============================================================/*/
 
 .pie {
-    margin-top: 10px;
-    background-color:rgb(255, 201, 201) ;
+    padding-left: 50px;
+    padding-block: 60px;
+    margin-top: 100px;
+    background-color:rgb(255, 251, 243) ;
 }
 .pie a {
     display: list-item;
