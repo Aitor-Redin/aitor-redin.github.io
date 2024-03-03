@@ -175,7 +175,7 @@ th { background-color: rgb(0, 13, 131); font-size: 25px; }
 
 .especial { background-color: rgb(255, 0, 0); }
 
-.destacartemporada {padding: 10px; border: red; border-width: 3px; border-style: dashed;}
+.destacartemporada {padding: 10px; border: red; border-width: 3px; border-style: dashed; border-radius: 10px;}
 
 .informativo {text-align: center; font-size: 12px;}
 
