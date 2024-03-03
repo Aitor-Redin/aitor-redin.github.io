@@ -1,7 +1,7 @@
 /*/ SECCIONES ========================================================================================== /*/
 
 .juegos {
-    margin-top: 50px;
+    margin-top: 30px;
     margin-bottom: 30px;
     display: flex;
     flex-wrap: wrap;
@@ -26,22 +26,6 @@
     opacity: 1;
 }
 
-.juego:hover .titulo-juego {
-    opacity: 1;
-}
-
-.titulo-juego {
-    font-style: bold;
-    position: absolute;
-    top: -60px;
-    left: 0;
-    right: 0;
-    text-align: center;
-    color: rgb(0, 0, 0);
-    font-size: 30px;
-    opacity: 0;
-    transition: opacity 0.3s;
-}
 
 
 /*/ BODY =============================================================================== /*/
@@ -63,6 +47,7 @@ body {
 /*/================================================== PIE ============================================================/*/
 
 .pie {
+    font-size: 20PX;
     padding-left: 50px;
     padding-block: 60px;
     margin-top: 100px;
@@ -72,14 +57,18 @@ body {
     display: list-item;
     color: black;
     text-decoration: none;
-    max-width: 100px;
+    max-width: 15%;
 }
 .pie a:visited {
     color: rgb(58, 58, 58);
 }
+
 .pie a:hover {
-    background-color: aqua;
+    color: rgb(110, 109, 0);
+    transform: scale(1.05);
+    transition: transform 0.5s;
 }
+
 .MapaLink {
     display: inline-block;
 }
