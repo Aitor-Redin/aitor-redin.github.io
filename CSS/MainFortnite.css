@@ -16,6 +16,7 @@
 }
 
 .seccion img {
+    border-radius: 10PX;
     width: 300px;
     transition: transform 0.3s;
 }
@@ -138,7 +139,7 @@ h1 {
 }
 
 .pie a:hover {
-    color: rgb(255, 251, 0);
+    color: rgb(0, 174, 255);
     transform: scale(1.02);
     transition: transform 0.3s;
 }
