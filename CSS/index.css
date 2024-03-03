@@ -15,6 +15,7 @@
 }
 
 .juego img {
+    border-radius: 10PX;
     width: 300px;
     transition: transform 0.3s;
 }
@@ -72,4 +73,9 @@ body {
 
 .MapaLink {
     display: inline-block;
+}
+
+/*/ VERSIÓN MÓVIL ========================================================================= /*/
+@media screen and (max-width: 830px) {
+    
 }

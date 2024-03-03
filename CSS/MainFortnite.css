@@ -16,6 +16,7 @@
 }
 
 .seccion img {
+    border-radius: 10PX;
     width: 300px;
     transition: transform 0.3s;
 }
