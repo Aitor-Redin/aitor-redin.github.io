@@ -84,5 +84,5 @@ body {
     .juego:hover img { transform: none; }
     .pie { font-size: 14px; }
     .pie a { max-width: 30%; }
-
+    .infoshooters { border-radius: 13px; }
 }
