@@ -80,6 +80,8 @@ h1 {
 
 .carousel-dark img { border-radius: 10px; }
 
+.contenidos img { border-radius: 10px; }
+
 .contenidos {
     width: 70%;
     margin-inline: auto;
