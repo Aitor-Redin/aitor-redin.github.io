@@ -187,10 +187,9 @@ th { background-color: rgb(0, 13, 131); font-size: 25px; }
     /*/ PÁGINA PRINCIPAL ----------------------------------------------------- /*/
     .titulo img { width: 70%; }
     .seccion {width: 140px; height: 140px;}
-    .secciones {width: 100%;}
+    .secciones {margin-bottom: -40px; width: 100%; margin-inline: auto; margin-bottom: -40px;}
     .seccion :first-child :first-child { width: 140px; }
     .titulo-seccion { opacity: 1; font-size: 15px; color: white; top: -5px;}
-    .secciones { margin-bottom: -40px; width: 95%; }
     .titulo { width: 95%; }
     .separador_secciones {width: 95%;}
     .carousel-dark { width: 95%; margin-block: 10px; }
